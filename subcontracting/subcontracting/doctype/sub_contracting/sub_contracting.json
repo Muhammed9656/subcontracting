@@ -14,7 +14,7 @@
   "date",
   "due_date",
   "item_section",
-  "item_table",
+  "items",
   "naming_series"
  ],
  "fields": [
@@ -61,21 +61,21 @@
    "label": "Item"
   },
   {
-   "fieldname": "item_table",
-   "fieldtype": "Table",
-   "label": "Item Table",
-   "options": "Subcontracting-item"
-  },
-  {
    "fieldname": "naming_series",
    "fieldtype": "Select",
    "label": "Saming Series",
    "options": "SUB-.YY.-.####"
+  },
+  {
+   "fieldname": "items",
+   "fieldtype": "Table",
+   "label": "Item Table",
+   "options": "Subcontracting-item"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-05-05 20:31:43.636427",
+ "modified": "2024-05-13 21:10:43.947976",
  "modified_by": "Administrator",
  "module": "Subcontracting",
  "name": "Sub-Contracting",
